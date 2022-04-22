@@ -4,6 +4,7 @@ import Container from '@mui/material/Container';
 import './App.css';
 import AppBarComp from './components/AppBarComp';
 import DisplayWords from './components/DisplayWords';
+import BasicTabs from './components/TabPanel';
 function App() {
   return (
     <div className="App">
@@ -13,7 +14,7 @@ function App() {
       <Container >
         <Box sx={{ bgcolor: '#cfe8fc', height: '80vh' }} >
           <br />
-          <DisplayWords />
+          <BasicTabs/>
         </Box>
       </Container>
     </div>

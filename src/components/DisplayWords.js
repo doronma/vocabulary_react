@@ -16,7 +16,7 @@ const DisplayWords = () => {
     return (
         <div>
            
-            <TableContainer component={Paper} sx={{ minWidth: 100  , maxWidth:400}}>
+            <TableContainer component={Paper } sx={{ minWidth: 100  , maxWidth:400}}>
                 <Table sx={{ minWidth: 100  , maxWidth:400}} aria-label="simple table">
                     <TableHead>
                         <TableRow style={{backgroundColor: 'blue'}}>
